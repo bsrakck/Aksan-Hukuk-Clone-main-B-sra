@@ -1,0 +1,551 @@
+img{
+  max-width: 100%;
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: black;
+    font-family: 'sofia-pro', sans-serif;
+}
+.navbar-nav li .active:visited {
+color: gray;
+}
+
+
+
+.navbarContainer{
+    width: 95% !important;
+    margin-top: 1rem;
+    /* background-color: black; */
+    color: rgb(65, 62, 62);
+    font-weight: bold;
+    
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+
+
+.collapse-menu2 li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: small;
+}
+.collapse-menu2 ul{
+    list-style: none;
+}
+.collapse-menu2 li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.collapse{
+    flex-direction: column;
+    align-items: flex-end;}
+    .teamTitle{
+      padding: 15rem 0;
+  }
+  
+ 
+  /****INDEXXXXXXXXXXXXX****/
+  .Anasayfa .navbar{
+    background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/anasayfaArkaplan.jpg);
+  background-size: cover;
+  
+  }
+  header{
+   
+    background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/anasayfaArkaplan.jpg);
+  background-size: cover;
+  
+  }
+    .carousel-item {
+        height: 100vh;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      opacity: .8;
+        
+      }
+      .carousel-caption{
+        margin-bottom: 15rem;
+       opacity:1;
+       z-index: 9999999999999999;
+       
+      }
+      .carousel-caption p{
+        font-weight: bold;
+        color:white;
+        font-size: medium;
+
+      }
+      .carousel-caption h1{
+        font-weight: bold;
+        color:white;
+        font-size: xx-large;
+      }
+      section h2{
+        color: #990033;
+        /* font-size: small; */
+        font-weight: bold;
+      }
+      .sec2 h6{
+        color: #990033;
+        font-weight: bold;
+      }
+      .sec p{
+        color: rgb(49, 49, 49);
+      }
+      .sec1{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.963), rgba(13, 13, 13, 0.837)) ,url(img/anasayfaArkaplan.jpg);
+        /* min-height: 400px; */
+        background-size: cover ;
+        /* background-attachment: fixed;*/
+        background-repeat: no-repeat; 
+      }
+      .sec1 h3{
+        padding: 5rem 0;
+        font-size: large;
+      }
+      .sec1 p{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .sec1 a{
+        text-decoration: none;
+        border: none;
+    border-bottom: 1px solid gray;
+      }
+      .sec1 a:hover{
+background-color: #ffffff;
+
+      }
+      
+      .image{
+        overflow: hidden;
+        background-color: #020a20;
+        
+      }
+  .image a
+  {
+    position: relative;
+    display: block;
+  }
+  .ayrintiBilgi h6{
+    font-size: small;
+    color: rgba(128, 128, 128, 0.767);
+  }
+
+  .ayrintiBilgi a{
+    text-decoration: none;
+    font-size: small;
+    color: rgba(128, 128, 128, 0.767);
+  }
+  .ayrintiBilgi a:hover{
+    color: rgba(49,49,49);
+  }
+  .baslik a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+  }
+  .baslik a:hover{
+    color: #990033;
+  }
+  .icerik h6{
+    font-size: small;
+    color: rgba(49, 49, 49, 0.841);
+    font-family: 'Abril Fatface', cursive;
+    font-weight: lighter;
+  }
+ 
+/**HAKKIMIZDA**/
+.Hakkimizda{
+  background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/hakkimizda.jpeg);
+  background-size: cover; 
+max-height: 400px;
+  width: 100%;
+  
+  /* border: 2px solid yellow; */
+}
+.Hakkimizda .navbar{
+  background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/hakkimizda.jpeg);
+background-size: cover;
+}
+.HakTitle{
+  padding:20rem 0;
+  
+}
+.table ul li a{
+color: gray;
+font-weight: bold;}
+.table ul li a:hover{
+  color: #990033;
+}
+.table .renk li .active:visited{
+  color: #990033;
+}
+  .tab-content h4{
+    color: #990033;
+  }
+  .sec3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.963), rgba(13, 13, 13, 0.837)) ,url(img/sec1.jpg);
+           min-height: 400px;
+           background-size: cover ;
+           /* background-attachment: fixed;*/
+           background-repeat: no-repeat; 
+         }
+         .sec3 h3{
+           padding: 5rem 0;
+           font-size: large;
+         }
+         .sec3 p{
+           font-family: Arial, Helvetica, sans-serif;
+         }
+         .sec3 a{
+           text-decoration: none;
+           border: none;
+       border-bottom: 1px solid gray;
+         }
+         .sec3 a:hover{
+   background-color: #ffffff;
+   
+         }
+         .HakkimizdaM{
+          background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/hakkimizdaM.jpg);
+          background-size: cover; 
+          max-height: 400px;
+          width: 100%;
+         }
+         .HakkimizdaM .navbar{
+          background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/hakkimizdaM.jpg);
+          background-size: cover;
+
+         }
+         .HakkimizdaV{
+          background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/hakkimizdaV.jpg);
+          background-size: cover; 
+          max-height: 400px;
+        
+          width: 100%;
+         }
+         .HakkimizdaV .navbar{
+          background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/hakkimizdaV.jpg);
+          background-size: cover;
+
+         }
+
+
+ /****HİZMETLERİMİZ****/
+
+ .Hizmetlerimiz{
+  background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/hizmetlerimiz.jpg);
+  background-size: cover; 
+  max-height: 500px;
+
+  width: 100%;
+ }
+ .Hizmetlerimiz .navbar{
+  background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/hizmetlerimiz.jpg);
+  background-size: cover;
+
+ }
+ .sec5 h5{
+  color: #990033;
+ }
+ .sec5 ul li{
+  list-style: none;
+  padding: 0.5rem;
+ }
+ .sec5 ul li a{
+  text-decoration: none;
+  color:#2f2f30;
+  font-weight: bold;
+font-size: small;
+
+
+ }
+ .sec5 ul li a:hover{
+  text-decoration: none;
+  color: gray;
+  
+ }
+ 
+
+ /********TAKIM********/
+ .Takim{
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,  url("img/hero.jpg");
+  background-size: cover;
+
+ 
+}
+.Takim .navbar{
+  background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,  url("img/hero.jpg");
+  background-size: cover;  
+}
+.leftMenu ul{
+  list-style: none;
+}
+
+.leftMenu ul li{
+  margin-top: .5rem;
+}
+.leftMenu ul li a{
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+  transition: .35s;
+  font-size: small;
+}
+
+.leftMenu ul li a:hover{
+  color: #990033;
+}
+
+.leftMenu ul li:first-child a{
+  color: #990033;
+}
+
+.search input,select{
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 1rem;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.searchBtn{
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(43, 41, 54);
+  padding: .3rem .8rem;
+}
+
+.searchBtn:hover{
+  background-color: rgb(43, 41, 54);
+  color: white;
+  
+}
+.bg-blue {
+  background-color: #172b63;
+ z-index: 5;
+ left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}
+
+.teamCard img{
+  width: 100%;
+  height: 30%; 
+  z-index: 1;
+  opacity: 0.3;
+}
+
+
+.teamCard:hover img{
+  filter: grayscale(0);
+}
+.alfabe{
+padding-left: 1rem;
+}
+.alfabe a{
+text-decoration: none;
+color: black;
+font-size: medium;
+
+}
+.alfabe a:hover{
+text-decoration: none;
+color:#990033;
+font-size: small;
+
+}
+
+ /******KARİYER******/
+
+ .Kariyer{
+  background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/kariyer.jpg);
+  background-size: cover; 
+  max-height: 500px;
+
+  width: 100%;
+ }
+ .Kariyer .navbar{
+  background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/kariyer.jpg);
+  background-size: cover;
+
+ }
+ .kryr .card{
+  border: none;
+ }
+ .kryr h5{
+  color: #990033;
+ }
+ .sec6{
+  background-image: linear-gradient( rgba(5, 43, 90, 0.837),rgba(10, 19, 70, 0.963)) ,url(img/basvuru.jpg);
+         min-height: 400px;
+         background-size: cover ;
+         /* background-attachment: fixed;*/
+         background-repeat: no-repeat; 
+       }
+       .sec6 h3{
+         padding: 5rem 0;
+         font-size: large;
+       }
+       .sec6 p{
+         font-family: Arial, Helvetica, sans-serif;
+       }
+       .sec6 a{
+         text-decoration: none;
+         border: none;
+     border-bottom: 1px solid gray;
+       }
+       .sec6 a:hover{
+ background-color: #ffffff;
+ 
+       }
+
+
+
+       /****HİZMET NOKTALARIMIZI****/
+
+       .HizmetNoktalarimiz{
+        background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/h.noktalarimiz.jpg);
+        background-size: cover; 
+        max-height: 500px;
+      
+        width: 100%;
+       }
+       .HizmetNoktalarimiz .navbar{
+        background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/h.noktalarimiz.jpg);
+        background-size: cover;
+      
+       }
+       .opacity-medium{
+        position: absolute;
+        opacity: 0.9;
+       }
+    .hizmet .textt{
+      padding-left: 8rem;
+    }
+    form{
+      padding-left: 8rem;
+
+    }
+
+    /********İLETİŞİM********/
+    .iletisim{
+      background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/iletisim.jpg);
+      background-size: cover; 
+     
+    
+      width: 100%;
+     }
+     .iletisim .navbar{
+      background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,url(img/iletisim.jpg);
+      background-size: cover;
+    
+     }
+   
+    .sec4 h5{
+      color:#990033;
+    }
+    .ilet h6{
+      color: #990033;
+      width: 450px;
+      padding-top: 2rem;
+     
+    }
+  .ilet input{
+      border: none;
+      width: 100%;
+      height: 35px;
+      border-bottom: 1px solid gray;
+    }
+    .ilet textarea{
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid gray;
+      height: 70px;
+    }
+    .form-check-label a{
+text-decoration: none;
+color: #2f2f30;
+font-weight: bold;
+font-size: small;
+    }
+    
+
+
+    /********FOOTER********/
+    footer h6{
+      letter-spacing: 4px;
+      font-size: small;
+    }
+    footer ul li{
+      text-decoration: none;
+      list-style: none;
+    }
+    footer .baslik ul li a{
+      color: white;
+      font-size: small;
+    }
+    footer .baslik ul li a:hover{
+      color: gray;
+      font-size: small;
+    }
+    footer .baslik h1 a{
+      color: white;
+      font-size: small;
+    }
+    footer .baslik h1 a:hover{
+      color: gray;
+      font-size: small;
+    }
+   
+    footer .tarih .img{
+      color: white;
+      background-color: red;
+    }
+    footer .tarih a{
+      text-decoration: none;
+      color: white;
+      font-size: medium;
+    }
+    footer .tarih a:hover {
+      color: gray;
+     
+    }
+    footer .input-group {
+       font-size: 11px;
+          border: 1px solid white;
+          border-radius: 0 0;
+    }
+    footer .input-group:focus {
+      border: 1px solid white;
+    }
+    footer .btn:hover{
+      background-color: #ffffff;
+      color: #020a20;
+    }
+    .icon{
+      display: flex;
+      margin-right: 1rem;
+    }
+    .social ul li{
+      list-style: none;
+      margin-right: 1rem;
+    }
+    .social i{
+      color: white;
+  }
+    .social i:hover{
+      color: #9e9b9b!important;
+  }
